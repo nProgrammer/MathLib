@@ -7,7 +7,7 @@
     )
 ```
 
-*Now you can use our 8 functions:*
+*Now you can use our 10 functions:*
 ```go
 	a := addInt(10, 11) // this function is used for adding ints
 	b := addFloat(10.2, 11.1) // this function is used for adding floats
@@ -17,4 +17,6 @@
 	f := divideInt(10, 11) // this function is used for dividing ints
 	g := isIntDivisible(10, 11) // this function is used to check if int is divisible by another int
 	h := isIntEven(10, 11) // this function is used to check if int is even
+	i := reducingFloatByPercent(100, 23) // this function is used to reducing float by some percent
+	j := reducingIntByPercent(100, 23) // this function is used to reducing int by some percent
 ```
