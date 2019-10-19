@@ -1,4 +1,4 @@
-package MathLib
+package main
 
 func addFloat(a float64, b float64) float64 {
 	return a + b
@@ -12,9 +12,9 @@ func multiplyFloat(a float64, b float64) float64 {
 	return a * b
 }
 
-func MultiplyInt(a int, b int) int {
-	return a * b
-}
+//func MultiplyInt(a int, b int) int {
+//	return a * b
+//}
 
 func divideFloat(a float64, b float64) float64 {
 	return a / b

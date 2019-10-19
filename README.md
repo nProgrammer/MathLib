@@ -8,7 +8,7 @@
     )
 ```
 
-*Now you can use our 10 functions:*
+*Now you can use our 8 functions:*
 ```go
 	a := MathLib.addInt(10, 11) // this function is used for adding ints
 	b := MathLib.addFloat(10.2, 11.1) // this function is used for adding floats
