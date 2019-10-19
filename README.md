@@ -1,4 +1,4 @@
-#Math GO lang library - MathLib
+# ***Math GO lang library - MathLib***
 *Math lib is simple to use GOlang library*
 *To import this library you should write:*
    ```go
