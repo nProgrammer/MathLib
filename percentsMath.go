@@ -1,4 +1,4 @@
-package main
+package MathLib
 
 func reducingFloatByPercent(a float64, pUser float64) float64 {
 	p := pUser / 100
