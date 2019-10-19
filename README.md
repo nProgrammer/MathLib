@@ -18,6 +18,5 @@
 	f := MathLib.divideInt(10, 11) // this function is used for dividing ints
 	g := MathLib.isIntDivisible(10, 11) // this function is used to check if int is divisible by another int
 	h := MathLib.isIntEven(10, 11) // this function is used to check if int is even
-	i := MathLib.reducingFloatByPercent(100, 23) // this function is used to reducing float by some percent
-	j := MathLib.reducingIntByPercent(100, 23) // this function is used to reducing int by some percent
+	
 ```
