@@ -1,11 +1,10 @@
-# ***Math GO lang library - MathLib***
+# ***Math GO lang library - MathLib 1.0***
 *Math lib is simple to use GOlang library*
 *To import this library you should write:*
    ```go
  import (
- 	"github.com/nProgrammer/MathLib"
-    	_ "github.com/nProgrammer/MathLib"
-    )
+ 	    _ "github.com/nProgrammer/MathLib"
+ )
 ```
 
 *Now you can use our 10 functions:*
