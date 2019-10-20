@@ -122,10 +122,6 @@ func SquareFieldInt(a int) int {
 	return SqrtInt(a)
 }
 
-func TriangleFieldInt(a int, h int) int {
-	return 0.5 * (a * h)
-}
-
 func TriangleFieldFloat(a float64, h float64) float64 {
 	return 0.5 * (a * h)
 }
