@@ -23,5 +23,6 @@
         l := MathLib.SqrtInt(11) // this function is used to make sqrt of int
         m := MathLib.ToThePowerInt(11, 2) // this function is used to calculate the power of any exponent of any int
         n := MathLib.ToThePowerFloat(11.0, 2.0) // this function is used to calculate the power of any exponent of any float
-        s := MathLib.PI() // this function return number of PI (3.14159265359)
+        p := MathLib.PI() // this function return number of PI (3.14159265359)
+        r := MathLib.CircleField(12.0) // this function return value of circle field
 ```

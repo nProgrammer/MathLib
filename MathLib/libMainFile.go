@@ -101,3 +101,47 @@ func ToThePowerFloat(a float64, n float64) float64 {
 	}
 	return scorePF
 }
+
+func CircleField(r float64) float64 {
+	return PI() * SqrtFloat(r)
+}
+
+func RectangleFieldFloat(a float64, b float64) float64 {
+	return a * b
+}
+
+func RectangleFieldInt(a int, b int) int {
+	return a * b
+}
+
+func SquareFieldFloat(a float64) float64 {
+	return SqrtFloat(a)
+}
+
+func SquareFieldInt(a int) int {
+	return SqrtInt(a)
+}
+
+func TriangleFieldInt(a int, h int) int {
+	return 0.5 * (a * h)
+}
+
+func TriangleFieldFloat(a float64, h float64) float64 {
+	return 0.5 * (a * h)
+}
+
+func HexagonFieldFloat(a float64) float64 {
+	return 6 * SqrtFloat(a)
+}
+
+func HexagonFieldInt(a int) int {
+	return 6 * SqrtInt(a)
+}
+
+func CorrectCuboidFieldFloat(a float64, h float64) float64 {
+	return 2*SqrtFloat(a) + 4*MultiplyFloat(a, h)
+}
+
+func CorrectCuboidFieldInt(a int, h int) int {
+	return 2*SqrtInt(a) + 4*MultiplyInt(a, h)
+}
