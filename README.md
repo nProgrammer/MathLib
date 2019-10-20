@@ -1,4 +1,4 @@
-# ***Math GO lang library - MathLib 1.0***
+# ***Math GO lang library - MathLib 1.1***
 *Math lib is simple to use GOlang library*
 *To import this library you should write:*
    ```go
@@ -7,7 +7,7 @@
  )
 ```
 
-*Now you can use our 15 functions:*
+*Now you can use our 25 functions:*
 ```go
 	a := MathLib.AddInt(10, 11) // this function is used for adding ints
 	b := MathLib.AddFloat(10.2, 11.1) // this function is used for adding floats
