@@ -1,4 +1,4 @@
-package MathLib
+package main
 
 func AddFloat(a float64, b float64) float64 {
 	return a + b
@@ -54,4 +54,20 @@ func ReducingIntByPercent(a int, pUser int) int {
 	percentOfA := p * a
 	reduceI := a - percentOfA
 	return reduceI
+}
+
+func SqrtFloat(a float64) float64 {
+	return a * a
+}
+
+func SqrtInt(a int) int {
+	return a * a
+}
+
+func ToThePowerInt(a int, n int) int {
+	score := a
+	for i := 0; i < n; i++ {
+		score = score * a
+	}
+	return score
 }
