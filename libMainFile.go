@@ -66,7 +66,7 @@ func SqrtInt(a int) int {
 
 func ToThePowerInt(a int, n int) int {
 	score := a
-	for i := 0; i < n; i++ {
+	for i := 1; i < n; i++ {
 		score = score * a
 	}
 	return score
