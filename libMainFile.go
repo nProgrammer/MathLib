@@ -91,7 +91,7 @@ func ToThePowerInt(a int, n int) int {
 func ToThePowerFloat(a float64, n float64) float64 {
 	scorePF := a
 	if n >= 1 {
-		for i := 1; i < n; i++ {
+		for i := 1.0; i < n; i++ {
 			scorePF = scorePF * a
 		}
 	} else if n == 0 {
