@@ -25,4 +25,14 @@
         n := MathLib.ToThePowerFloat(11.0, 2.0) // this function is used to calculate the power of any exponent of any float
         p := MathLib.PI() // this function return number of PI (3.14159265359)
         r := MathLib.CircleField(12.0) // this function return value of circle field
+        s := MathLib.RectangleFieldFloat(10.1, 1.0) // this function return value of rectangle field
+        t := MathLib.RectangleFieldInt(10, 1) // this function return value of rectangle field
+        u := MathLib.SquareFieldFloat(12.1, 123.1) // this function return value of square field
+        w := MathLib.SquareFieldInt(12, 123) // this function return value of square field
+        y := MathLib.TriangleFieldInt(1, 23) // this function return value of triangle field
+        z := MathLib.TriangleFieldFloat(1.2, 12.2) // this function return value of triangle field
+        aa := MathLib.HexagonFieldFloat(12.1) // this function return value of hexagon field
+        ab := MathLib.HexagonFieldInt(12) // this function return value of hexagon field
+        ac := MathLib.CorrectCuboidFieldFloat(11.1, 0.1) // this function return value of correct cuboid field
+        ad := MathLib.CorrectCuboidFieldInt(11, 1) // this function return value of correct cuboid field
 ```
