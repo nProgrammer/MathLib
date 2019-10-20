@@ -1,7 +1,7 @@
 package MathLib
 
-type ConstantMathValues struct {
-	PI float64
+type constantMathValues struct {
+	pi float64
 }
 
 func AddFloat(a float64, b float64) float64 {
@@ -9,9 +9,9 @@ func AddFloat(a float64, b float64) float64 {
 }
 
 func PI() float64 {
-	constantMathValues := ConstantMathValues{}
-	constantMathValues.PI = 3.14
-	return constantMathValues.PI
+	constantMathValues := constantMathValues{}
+	constantMathValues.pi = 3.14
+	return constantMathValues.pi
 }
 
 func AddInt(a int, b int) int {
