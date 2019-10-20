@@ -10,7 +10,7 @@ func AddFloat(a float64, b float64) float64 {
 
 func PI() float64 {
 	constantMathValues := constantMathValues{}
-	constantMathValues.pi = 3.14
+	constantMathValues.pi = 3.14159265359
 	return constantMathValues.pi
 }
 
