@@ -1,17 +1,24 @@
 package MathLib
 
 type constantMathValues struct {
-	pi float64
+	pi           float64
+	goldDivision float64
 }
 
-func AddFloat(a float64, b float64) float64 {
-	return a + b
+func GoldDivision() float64 {
+	constantMathValues := constantMathValues{}
+	constantMathValues.goldDivision = 1.618033988749894848204586834366
+	return constantMathValues.goldDivision
 }
 
 func PI() float64 {
 	constantMathValues := constantMathValues{}
 	constantMathValues.pi = 3.14159265359
 	return constantMathValues.pi
+}
+
+func AddFloat(a float64, b float64) float64 {
+	return a + b
 }
 
 func AddInt(a int, b int) int {
