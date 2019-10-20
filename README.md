@@ -34,5 +34,5 @@
 	aa := MathLib.HexagonFieldInt(12) // this function return value of hexagon field
 	ab := MathLib.CorrectCuboidFieldFloat(11.1, 0.1) // this function return value of correct cuboid field
 	ac := MathLib.CorrectCuboidFieldInt(11, 1) // this function return value of correct cuboid field
-        ad := GoldDivision() // this function return the value of Gold Division
+        ad := MathLib.GoldDivision() // this function return the value of Gold Division
 ```
