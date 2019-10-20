@@ -3,7 +3,7 @@
 *To import this library you should write:*
    ```go
  import (
- 	    "github.com/nProgrammer/MathLib/MathLib"
+ 	    "github.com/nProgrammer/MathLib/MathLibGO"
  )
 ```
 

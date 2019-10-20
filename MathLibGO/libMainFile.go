@@ -1,4 +1,4 @@
-package MathLib
+package MathLibGO
 
 type constantMathValues struct {
 	pi           float64
